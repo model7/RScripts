@@ -62,3 +62,6 @@ cor(cordata) # matrix for each combination of variables
 
 # manual test for specific pairs that look interesting
 cor.test(cordata$IWM, cordata$GDX)
+
+# remove objects from workspace
+rm(list=ls())
